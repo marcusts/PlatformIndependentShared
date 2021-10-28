@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "jBAdc6z4pnAUc08wLCTmw4DFjo2fJsvBaErUgtqxdsDuq9lcE/dNM+trL4WzC/wZaCjUKgwh/M4SEknFk+knQg==",
+  "success": true,
+  "projectFilePath": "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\PlatformIndependentShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\com.marcusts.responsivetasks\\2.0.1\\com.marcusts.responsivetasks.2.0.1.nupkg.sha512",
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\com.marcusts.sharedutils\\2.0.1\\com.marcusts.sharedutils.2.0.1.nupkg.sha512",
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\com.marcusts.smartdi\\2.0.1\\com.marcusts.smartdi.2.0.1.nupkg.sha512",
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

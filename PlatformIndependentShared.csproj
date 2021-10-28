@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Com.MarcusTS.PlatformIndependentShared</AssemblyName>
+    <RootNamespace>Com.MarcusTS.PlatformIndependentShared</RootNamespace>
+    <Authors>Stephen Marcus</Authors>
+    <Company>Marcus Technical Services, Inc.</Company>
+    <Product>Platform Independent Shared</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Version>2.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="MtsShared.PlatformIndependentShared.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Com.MarcusTS.ResponsiveTasks" Version="2.0.1" />
+    <PackageReference Include="Com.MarcusTS.SharedUtils" Version="2.0.1" />
+    <PackageReference Include="Com.MarcusTS.SmartDI" Version="2.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="docs\README.md" Pack="true" PackagePath="\" />
+    <None Update="license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
+
+</Project>

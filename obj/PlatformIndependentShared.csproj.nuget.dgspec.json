@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\PlatformIndependentShared.csproj": {}
+  },
+  "projects": {
+    "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\PlatformIndependentShared.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\PlatformIndependentShared.csproj",
+        "projectName": "Com.MarcusTS.PlatformIndependentShared",
+        "projectPath": "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\PlatformIndependentShared.csproj",
+        "packagesPath": "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\packages",
+        "outputPath": "M:\\MyDocs\\Dev\\MtsShared.PlatformIndependent\\PlatformIndependentShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\steph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Com.MarcusTS.ResponsiveTasks": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Com.MarcusTS.SharedUtils": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Com.MarcusTS.SmartDI": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
