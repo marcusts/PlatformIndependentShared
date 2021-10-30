@@ -10,7 +10,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <Version>2.0.2</Version>
+    <Version>2.0.3</Version>
     <Description>Platform independent utilities for C# development.</Description>
   </PropertyGroup>
 

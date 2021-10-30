@@ -26,7 +26,7 @@
 // SOFTWARE.
 // *********************************************************************************
 
-#define FORCE_STATE_CHANGE_ON_MAIN_THREAD
+// #define FORCE_STATE_CHANGE_ON_MAIN_THREAD
 
 namespace Com.MarcusTS.PlatformIndependentShared.Common.Navigation
 {
