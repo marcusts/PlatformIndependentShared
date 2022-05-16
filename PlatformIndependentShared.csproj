@@ -10,7 +10,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <Version>2.0.3</Version>
+    <Version>2.0.4</Version>
     <Description>Platform independent utilities for C# development.</Description>
   </PropertyGroup>
 
@@ -29,13 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Com.MarcusTS.ResponsiveTasks" Version="2.0.3" />
-    <PackageReference Include="Com.MarcusTS.SharedUtils" Version="2.0.2" />
-    <PackageReference Include="Com.MarcusTS.SmartDI" Version="2.0.2" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="docs\README.md" Pack="true" PackagePath="\" />
     <None Update="license.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -44,6 +37,12 @@
 
   <ItemGroup>
     <Folder Include="docs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Com.MarcusTS.ResponsiveTasks" Version="2.0.3" />
+    <PackageReference Include="Com.MarcusTS.SharedUtils" Version="2.0.3" />
+    <PackageReference Include="Com.MarcusTS.SmartDI" Version="2.0.2" />
   </ItemGroup>
 
 </Project>

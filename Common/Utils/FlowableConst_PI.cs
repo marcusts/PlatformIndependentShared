@@ -1,5 +1,5 @@
 ﻿// *********************************************************************************
-// Copyright @2021 Marcus Technical Services, Inc.
+// Copyright @2022 Marcus Technical Services, Inc.
 // <copyright
 // file=FlowableConst_PI.cs
 // company="Marcus Technical Services, Inc.">
@@ -37,9 +37,5 @@ namespace Com.MarcusTS.PlatformIndependentShared.Common.Utils
 
       public const int  MILLISECONDS_BEFORE_FILTER_CHANGES              = 125;
 
-      public static readonly double BUTTON_HEIGHT                                   = 35.0.AdjustForOsAndDevice();
-      public static readonly double BUTTON_WIDTH                                    = 175.0.AdjustForOsAndDevice();
-      public static readonly double DEFAULT_EXTRA_TOP_MARGIN                        = 15d.AdjustForOsAndDevice();
-      public static readonly double SMALL_EXTRA_TOP_MARGIN                          = DEFAULT_EXTRA_TOP_MARGIN / 2;
    }
 }

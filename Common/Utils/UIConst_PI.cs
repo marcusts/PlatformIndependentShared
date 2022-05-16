@@ -1,5 +1,5 @@
 ﻿// *********************************************************************************
-// Copyright @2021 Marcus Technical Services, Inc.
+// Copyright @2022 Marcus Technical Services, Inc.
 // <copyright
 // file=UIConst_PI.cs
 // company="Marcus Technical Services, Inc.">
@@ -31,7 +31,6 @@ namespace Com.MarcusTS.PlatformIndependentShared.Common.Utils
    public class UIConst_PI
    {
       public const  int AFTER_BUTTON_PRESS_DELAY_MILLISECONDS           = 250;
-      public const double ANDROID_ADJUSTMENT = 1.5;
       public const  double ANIMATION_BOUNCE_SCALE      = 0.9;
       public const string DEFAULT_IMAGE_SUFFIX = ".png";
       public const float HAPTIC_VIBRATION_MILLISECONDS = 250;
@@ -50,30 +49,5 @@ namespace Com.MarcusTS.PlatformIndependentShared.Common.Utils
 
       public static readonly uint BUTTON_BOUNCE_MILLISECONDS = 125;
 
-      public static readonly  double DEFAULT_CORNER_RADIUS_FACTOR = CalcCornerRadiusFactor( 0.075 );
-
-      public static readonly double MEDIUM_CORNER_RADIUS_FACTOR = CalcCornerRadiusFactor( 0.125 );
-
-      public static readonly double LARGE_CORNER_RADIUS_FACTOR = CalcCornerRadiusFactor( 0.175 );
-
-      public static readonly double DEFAULT_ENTRY_HEIGHT =
-         DeviceUtils_PI.IsIos() ? 35.0.AdjustForOsAndDevice() : 40.0.AdjustForOsAndDevice();
-
-      public static readonly double DEFAULT_ENTRY_WIDTH                   = 275.00.AdjustForOsAndDevice();
-
-      public static readonly double A_MARGIN_SPACING_SINGLE_FACTOR = 10.0.AdjustForOsAndDevice();
-
-      public static readonly double DEFAULT_STACK_LAYOUT_SPACING = A_MARGIN_SPACING_SINGLE_FACTOR;
-
-      public static readonly double MARGIN_SPACING_DOUBLE_FACTOR = A_MARGIN_SPACING_SINGLE_FACTOR * 2;
-
-      public static readonly double MARGIN_SPACING_HALF_FACTOR = A_MARGIN_SPACING_SINGLE_FACTOR / 2;
-
-      public static readonly double MARGIN_SPACING_MEDIUM_FACTOR = A_MARGIN_SPACING_SINGLE_FACTOR * 1.5;
-
-      private static double CalcCornerRadiusFactor( double iosFactor )
-      {
-         return DeviceUtils_PI.IsIos() ? iosFactor : ( iosFactor * ANDROID_ADJUSTMENT );
-      }
    }
 }

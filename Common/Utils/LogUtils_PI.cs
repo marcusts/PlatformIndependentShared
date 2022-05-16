@@ -1,7 +1,7 @@
 ﻿// #define USE_DELAYS
 
 // *********************************************************************************
-// Copyright @2021 Marcus Technical Services, Inc.
+// Copyright @2022 Marcus Technical Services, Inc.
 // <copyright
 // file=LogUtils_PI.cs
 // company="Marcus Technical Services, Inc.">
